@@ -39,4 +39,4 @@ RUN cp /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 # verbinden , also: docker run -v $( pwd ) :/data
 WORKDIR /data
 VOLUME ["/data"]
-ENTRYPOINT ["/bin/bash"]
+CMD ["/bin/bash"]

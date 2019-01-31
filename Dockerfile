@@ -24,7 +24,7 @@ rm -rf /var/lib/apt/lists/*
 
 # Pandoc installiren
 RUN cabal update && \
-    cabal install pandoc-2.3.1 && \
+    cabal install pandoc-2.6 && \
     ln -s /root/.cabal/bin/pandoc /usr/bin/pandoc
 
 # Mitteleuropäische Zeitzone

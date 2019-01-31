@@ -23,8 +23,8 @@ apt-get clean && \
 rm -rf /var/lib/apt/lists/*
 
 # Pandoc installiren
-RUN cabal update && \
-    cabal install pandoc-2.6 pandoc-citeproc && \
+RUN cabal new-update && \
+    cabal new-install pandoc-2.6 pandoc-citeproc && \
     ln -s /root/.cabal/bin/pandoc /usr/bin/pandoc
 
 # Mitteleuropäische Zeitzone

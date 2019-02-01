@@ -10,6 +10,7 @@ RUN apt-get update -y && \
         texlive-lang-german \
         texlive-pstricks \
         texlive-font-utils \
+        texlive-xetex \
         lmodern \
         imagemagick \
         unzip \

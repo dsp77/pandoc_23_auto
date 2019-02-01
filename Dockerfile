@@ -11,6 +11,7 @@ RUN apt-get update -y && \
         texlive-pstricks \
         texlive-font-utils \
         texlive-xetex \
+        texlive-luatex \
         lmodern \
         imagemagick \
         unzip \
